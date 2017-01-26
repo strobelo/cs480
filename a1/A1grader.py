@@ -72,7 +72,7 @@ else:
     g += 20
     print('20/20 points. Values returned by \'use\' are correct.')
     
-if within(error,7.2e-15,1e-15):
+if within(error,7.2e-15,1e-10):
     g += 20
     print('20/20 points. rmse() is correct.')
 else:
